@@ -1,0 +1,102 @@
+1- a)-5.0 b)98.0 c)0 d)9.0 e)False f)False g)True h)True i)True j)0.5 k)True l)True m)True 
+
+2- -20
+
+3- 56, 28, 28, c
+
+4- a = 10, b = 10, c = 20
+
+5- print ("Alô mundo")
+
+6-  n = input ("Digite um número: ")
+    print("O número informado foi",n)
+
+7- a = int(input('Digite um  número: '))
+   b = int(input('Digite outro  número: '))
+   soma = a + b
+   print (soma)
+
+8- n1 = float(input ("nota 1: "))
+   n2 = float(input ("nota 2: "))
+   n3 = float(input ("nota 3: "))
+   n4 = float(input ("nota 4: "))
+   media = (n1 + n2 + n3 + n4)/4
+   print (media)
+
+9- n1 = int(input ("Primeiro número: "))
+   n2 = int(input ("Segundo número: "))
+   mult = n1 * n2
+   print (mult)
+
+
+10- n = float(input ("Insira um número: "))
+    double = n * 2
+    print (double)
+
+11- n1 = float(input ("Insira um número: "))
+    n2 = float(input ("Insira outro número: "))
+    n3 = float(input ("Insira outro número: "))
+    x = (n1 + n2)*( n2 + n3)
+    print (x)
+
+12- n1 = int(input ("Insira um número: "))
+    n2 = int(input ("Insira outro número: "))
+    x = n1 % n2
+    print (x)
+
+13- n = float(input ("Insira seu salário: "))
+    x = n * 1.25
+    print (x)
+
+14- A = int(input ("Primeiro número: "))
+    B = int(input ("Segundo número: "))
+    C = 0
+    C = A
+    A = B
+    B = C
+    print (A,B)
+
+15-h = float(input ("Altura: "))
+   r = float(input ("Raio: "))
+   v = 3.14159 * r/2 * h
+   print (v)
+
+16- v = float(input ("Valor: "))
+    t = float(input ("Taxa: "))
+    tx = float(input ("Tempo: "))
+    p = v + (v*(tx/100)*t)
+    print ("Prestação:",p)
+
+17- r = float(input ("Raio: "))
+    a = 3.14 *(r**2)
+    print ("Área: ",a)
+
+18- A = int(input ("A: "))
+    B = int(input ("B: "))
+    C = int(input ("C: "))
+    D = int(input ("D: "))
+    E = int(input ("E: "))
+    x = int(input ("x: "))
+    Px = ((A*x*4) + (B*x*3) + (C*x*2) + (D*x) + E)
+    print (Px)
+
+19- C = int(input ("Temperatura em graus: "))
+    F = (9 * C + 160)/5
+    print(F)
+
+20- v = float(input ('Valor: '))
+    c = float(input('Cotação do dólar: '))
+    d = v * c
+    print(d)
+
+21- c = float(input ('Comprimento: '))
+    l = float(input('Largura: '))
+    a = c * l
+    print("Área:",a)
+
+22- c = int(input ('Quantidade de cavalos : '))
+    f = c * 4
+    print(f,"ferraduras")
+
+
+
