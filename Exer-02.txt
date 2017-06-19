@@ -1,0 +1,53 @@
+Exercicio - Modularizacao I
+
+01. x=7 e y=7
+    a = 0;b = 5;c = -5
+    a = 10;b = 10;c = 0
+    a = 20;b = 15;c = 5
+    a = 30;b = 20;c = 10
+    a = 40;b = 25;c = 15
+
+02. def real(valor):
+        cent = valor * 0.7
+        return cent
+    print (real(10))
+
+03. def hora(min):
+        hora = min / 60
+        min2 = min % 60
+        return "%d horas e %d minutos" % (hora,min2)
+    print(hora(80))
+
+05. def veloc(m):
+        km = m * 3.6
+        return km
+    print(veloc(80))
+
+06. def veloc(km):
+        m = km / 3.6
+        return m
+    print(veloc(288))
+
+07. def expr(a,b):
+        r = (a+b) / abs(a-b)
+        return r
+     print (expr(8,4))
+
+08. def expr(a,b):
+       q = a/b
+       r = a % b
+       return q,r
+    print (expr(8,2))
+
+09. def num (n):
+       an = n - 1
+       sn = n + 1
+       return an,sn
+    n = int(input())
+    print (num(n))
+
+10. def tri (n):
+       t = n * 3
+       return t
+    n = float(input())
+    print (tri(n))
