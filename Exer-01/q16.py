@@ -1,0 +1,5 @@
+v = float(input ("Valor: "))
+t = float(input ("Taxa: "))
+tx = float(input ("Tempo: "))
+p = v + (v*(tx/100)*t)
+print ("Prestacao:%f" %p)

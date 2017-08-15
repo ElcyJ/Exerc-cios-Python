@@ -1,0 +1,8 @@
+A = int(input("A: "))
+B = int(input("B: "))
+C = int(input("C: "))
+D = int(input("D: "))
+E = int(input("E: "))
+x = int(input("x: "))
+Px = ((A * x * 4) + (B * x * 3) + (C * x * 2) + (D * x) + E)
+print (Px)

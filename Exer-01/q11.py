@@ -1,0 +1,5 @@
+n1 = float(input ("Insira um numero: "))
+n2 = float(input ("Insira outro numero: "))
+n3 = float(input ("Insira outro numero: "))
+x = (n1 + n2)*( n2 + n3)
+print (x)
